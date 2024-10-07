@@ -91,16 +91,13 @@ python app.py
 
 <img src="https://github.com/booboox/iecomme/blob/master/static/我的.png?raw=true" alt="个人中心" width="200"/>
 
-贡献
-欢迎贡献！请遵循以下步骤：
+我的发布
 
-Fork 本项目
-创建你的特性分支 (git checkout -b feature/AmazingFeature)
-提交你的更改 (git commit -m 'Add some AmazingFeature')
-推送到分支 (git push origin feature/AmazingFeature)
-创建一个新的 Pull Request
-许可证
-本项目使用 MIT 许可证 - 详情请参见 LICENSE 文件。
+<img src="https://github.com/booboox/iecomme/blob/master/static/我的发布.png?raw=true" alt="我的发布和消息页面" width="200"/>
+
+消息页面
+
+<img src="https://github.com/booboox/iecomme/blob/master/static/消息.png?raw=true" alt="消息页面" width="200"/>
 
 联系
 如有问题，请联系我：c79209811@gmail.com
