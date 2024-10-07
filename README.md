@@ -1,7 +1,7 @@
 # iecomme
 iecomme-uniapp
 
-这是一个基于 UniApp 的电商平台，支持在微信小程序上运行。后端使用 Flask 提供 API 支持，用户可以注册、登录、浏览商品、出售闲置物品，并管理个人账户。
+这是一个基于 UniApp 的电商平台，支持在微信小程序上运行。后端使用 Flask 提供 API 支持，用户可以注册、登录、浏览商品、出售二手骑行，并管理个人账户。
 
 ## 功能
 
@@ -25,13 +25,13 @@ iecomme-uniapp
 
 - 前端：UniApp
 - 后端：Flask
-- 数据库：MySQL 或 MongoDB（根据你的选择）
+- 数据库：MySQL
 
 ## 快速开始
 
 ### 环境要求
 
-- Node.js 版本：14.x 或以上
+- uniapp
 - 微信开发者工具
 - Python 3.x
 - Flask 库
@@ -42,16 +42,10 @@ iecomme-uniapp
 
 1. 克隆这个仓库：
    ```bash
-   git clone https://github.com/你的用户名/ecommerce.git
+   git clone https://github.com/booboox/iecomme.git
 进入项目目录：
 
-bash
-cd ecommerce
-安装依赖：
-
-bash
-npm install
-使用微信开发者工具打开项目。
+使用HBuilder X运行微信开发者工具打开项目。
 
 后端 (Flask)
 进入后端目录：
@@ -101,4 +95,4 @@ Fork 本项目
 本项目使用 MIT 许可证 - 详情请参见 LICENSE 文件。
 
 联系
-如有问题，请联系我：你的邮箱
+如有问题，请联系我：c79209811@gmail.com
