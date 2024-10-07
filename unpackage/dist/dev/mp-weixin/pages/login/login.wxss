@@ -1,0 +1,63 @@
+
+.login-container.data-v-e4e4508d {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #4A90E2, #50E3C2); /* 渐变背景 */
+  height: 100vh; 
+  padding: 0 20px;
+}
+.logo-container.data-v-e4e4508d {
+  margin-bottom: 30px;
+}
+.logo.data-v-e4e4508d {
+  width: 80px; 
+  height: 80px;
+}
+.form-container.data-v-e4e4508d {
+  width: 100%;
+  max-width: 350px; /* 更小的最大宽度，更适合手机 */
+  background-color: #ffffff;
+  border-radius: 12px; /* 圆角 */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+  padding: 25px; /* 内边距 */
+}
+.input-field.data-v-e4e4508d {
+  width: 100%;
+  padding: 14px; /* 增加内边距 */
+  margin: 10px 0; /* 减少上下间距 */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* 圆角 */
+  font-size: 16px; /* 较大字体 */
+  transition: border-color 0.3s; /* 边框颜色过渡 */
+}
+.input-field.data-v-e4e4508d:focus {
+  border-color: #007AFF; /* 聚焦时边框颜色 */
+  outline: none; /* 去掉默认轮廓 */
+}
+.login-button.data-v-e4e4508d {
+  width: 100%;
+  padding: 14px; /* 增加内边距 */
+  background-color: #007AFF; 
+  color: #ffffff;
+  border: none;
+  border-radius: 8px; /* 圆角 */
+  font-size: 18px; /* 大字体 */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* 动画效果 */
+}
+.login-button.data-v-e4e4508d:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); /* 悬停时稍微放大 */
+}
+.footer.data-v-e4e4508d {
+  text-align: center;
+  margin-top: 25px;
+}
+.footer-text.data-v-e4e4508d {
+  color: #007AFF;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px; /* 大字体 */
+}

@@ -1,0 +1,57 @@
+
+.container.data-v-0bbcc720 {
+  padding: 20px;
+  background-color: #f7f9fc; /* 背景色 */
+}
+.form-group.data-v-0bbcc720 {
+  margin-bottom: 15px;
+}
+.input-field.data-v-0bbcc720, .textarea-field.data-v-0bbcc720 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px; /* 半圆角 */
+  transition: border-color 0.3s;
+}
+.input-field.data-v-0bbcc720:focus, .textarea-field.data-v-0bbcc720:focus {
+  border-color: #007aff; /* 聚焦时边框颜色 */
+}
+.textarea-field.data-v-0bbcc720 {
+  height: 100px; /* 文本域高度 */
+  resize: none; /* 禁止调整大小 */
+}
+.image-button.data-v-0bbcc720 {
+  background-color: #007aff; /* 按钮背景色 */
+  color: #fff; /* 按钮文字颜色 */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px; /* 半圆角 */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.image-button.data-v-0bbcc720:hover {
+  background-color: #005bb5; /* 悬停时更改颜色 */
+}
+.image-preview.data-v-0bbcc720 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.image-item.data-v-0bbcc720 {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 10px; /* 图片圆角 */
+}
+.submit-button.data-v-0bbcc720 {
+  background-color: #28a745; /* 提交按钮颜色 */
+  color: #fff; /* 提交按钮文字颜色 */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px; /* 半圆角 */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.submit-button.data-v-0bbcc720:hover {
+  background-color: #218838; /* 提交按钮悬停颜色 */
+}

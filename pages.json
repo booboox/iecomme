@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "iEComme"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/Product/Product List",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		},
+		{
+			"path": "pages/Product/Product Details",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/User/User Center",
+			"style": {
+				"navigationBarTitleText": "用户中心"
+			}
+		},
+		{
+			"path": "pages/Product/Product upload",
+			"style": {
+				"navigationBarTitleText": "卖闲置"
+			}
+		},
+		{
+			"path": "pages/User/sold",
+			"style": {
+				"navigationBarTitleText": "我卖出的"
+			}
+		},
+		{
+			"path": "pages/User/published",
+			"style": {
+				"navigationBarTitleText": "我发布的"
+			}
+		},
+		{
+			"path": "pages/User/bought",
+			"style": {
+				"navigationBarTitleText": "我购买的"
+			}
+		},
+		{
+			"path": "pages/User/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

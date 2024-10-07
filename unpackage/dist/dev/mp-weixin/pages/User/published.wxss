@@ -1,0 +1,69 @@
+
+.container {
+  padding: 16px;
+  background-color: #ffffff; /* 背景颜色改为白色 */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center; /* 标题居中 */
+}
+.item {
+  background-color: #f9f9f9; /* 项目背景颜色 */
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* 使用 Flexbox */
+  flex-direction: column; /* 垂直排列 */
+  align-items: center; /* 水平居中对齐 */
+}
+.item-image {
+  width: 60px; /* 设置图像宽度 */
+  height: 60px; /* 设置图像高度 */
+  border-radius: 6px;
+  margin-bottom: 5px; /* 图像与文本之间的间距 */
+}
+.item-name {
+  font-size: 18px;
+  color: #333;
+}
+.no-items {
+  text-align: center;
+  margin-top: 50px;
+  display: flex; /* 使用 Flexbox */
+  flex-direction: column; /* 垂直排列 */
+  align-items: center; /* 水平居中对齐 */
+}
+.no-items-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px; /* 图片下方间距 */
+}
+.no-items-text {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+.no-items-subtext {
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+.publish-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* 按钮背景颜色 */
+  color: white; /* 按钮文字颜色 */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.publish-button:hover {
+  background-color: #0056b3; /* 悬停时按钮颜色 */
+}

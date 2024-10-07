@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/login/register",
+    "pages/home/home",
+    "pages/Product/Product List",
+    "pages/Product/Product Details",
+    "pages/User/User Center",
+    "pages/Product/Product upload",
+    "pages/User/sold",
+    "pages/User/published",
+    "pages/User/bought",
+    "pages/User/message",
+    "pages/chat/chat"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

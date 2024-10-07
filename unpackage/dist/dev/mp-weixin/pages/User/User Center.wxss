@@ -1,0 +1,86 @@
+
+.container {
+  padding: 16px;
+  background-color: #e5f4fa; /* 淡蓝色背景 */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: #007aff; /* 蓝色头部背景 */
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.username {
+  font-size: 18px;
+}
+.content {
+  flex: 1;
+}
+.info-section, .trade-section, .message-section {
+  background-color: #ffffff; /* 白色背景 */
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.info-title, .trade-title, .message-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.info-item, .trade-item, .message-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0; /* 浅灰色分隔线 */
+  color: #007aff; /* 蓝色文本 */
+  transition: background-color 0.3s;
+}
+.info-item:last-child, .trade-item:last-child, .message-item:last-child {
+  border-bottom: none;
+}
+.info-item:hover, .trade-item:hover, .message-item:hover {
+  background-color: #f0f8ff; /* 浅蓝色悬停效果 */
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer-item {
+  font-size: 16px;
+  color: #333;
+}
+.sell-button {
+  width: 50px;
+  height: 50px;
+  background-color: #ff4500;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -20px; /* 向上移动 */
+}
+.sell-button-text {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px; /* 垂直居中 */
+}
