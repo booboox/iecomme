@@ -72,19 +72,24 @@ python app.py
 
 示例截图
 登录页面
-登录页面
+
+<img src="https://github.com/booboox/iecomme/blob/master/static/登录.png?raw=true" alt="登录页面" width="200"/>
 
 注册页面
-注册页面
+
+<img src="https://github.com/booboox/iecomme/blob/master/static/注册.png?raw=true" alt="注册页面" width="200"/>
 
 首页
-首页
+
+<img src="https://github.com/booboox/iecomme/blob/master/static/首页.png?raw=true" alt="首页" width="200"/>
 
 卖闲置页面
-卖闲置页面
+
+<img src="https://github.com/booboox/iecomme/blob/master/static/发布.png?raw=true" alt="卖闲置页面" width="200"/>
 
 个人中心
-个人中心
+
+<img src="https://github.com/booboox/iecomme/blob/master/static/我的.png?raw=true" alt="个人中心" width="200"/>
 
 贡献
 欢迎贡献！请遵循以下步骤：
